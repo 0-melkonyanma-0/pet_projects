@@ -1,9 +1,50 @@
-* {
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 body{
-    margin: 20px;
+    background:rgb(210, 184, 184) ;
+}
+
+.manga-page-main-info__info-box-title{
+    font-size: 25px;
+}
+
+.manga-page-info__img>img{
+    border-radius: 20px;
+    height: 320px;
+}
+
+.manga-page-main-info__info-box{
+    margin-left:20%;
+}
+
+.manga-page-main-info,
+.manga-page-bottom-info{
+    padding-top:20px;
+}
+
+.manga-page-bottom-info__links{
+
+    background-color: orange;
+}
+
+.manga-page-bottom-info__links-list{
+    background-color: skyblue;
+}
+
+.manga-page-bottom-info__list {
+    background-color: black;
+}
+
+.manga-page-bottom-info__list-volume-list{
+    background-color: white;
+}
+
+.manga-page-bottom-info__list-volume-list{
+    padding-top: 15px;
+    background-color: white;
+    border-radius: 20px;   
 }

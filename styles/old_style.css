@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+.manga-page__container{
+    background-color: red;
+    padding-top: 15px;
+}
+
+.manga-page__container-links{
+    margin-top: 15px;
+}
+
+.manga-page__container-row-image > img{
+    border-radius: 20px;
+}
+
+.manga-page__container-row-info_box{
+    background-color: rgb(229, 246, 246);
+}
+
+.manga-page__container-row-info_box-title{
+    margin-top: 5px;
+}
+
+.manga-page__container-row-info_box-score{
+    margin-top:15px
+}
+
+.manga-page__container-row-info_box-discription{
+    margin-top:15px
+}
